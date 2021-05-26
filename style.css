@@ -1,0 +1,36 @@
+*,**::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+button{
+    background-color: cadetblue;
+    border: 3px solid blue;
+    padding: 2px;
+    width: 5%;
+    transition: 
+        border-radius 5s linear 1s,
+        width 5s linear 3s,
+        height 5s linear 3s,
+        border-color 3s linear 3s;
+        
+}
+.border{
+    border-radius:8px;
+    
+    
+}
+button:hover{
+    border-radius: 100%;
+    width: 100px;
+    border-color: chartreuse;
+    
+}
